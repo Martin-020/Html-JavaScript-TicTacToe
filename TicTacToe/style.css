@@ -1,0 +1,29 @@
+.board {
+  width: 300px;
+  height: 300px;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #333;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cell.taken {
+  pointer-events: none;
+  color: #333;
+}
+
+.cell.x {
+  color: #007bff;
+}
+
+.cell.o {
+  color: #dc3545;
+}

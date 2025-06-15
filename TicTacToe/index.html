@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe (X-O)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- =======================================================
+  * Project Name: Tic Tac Toe (X-O) 
+  * Updated: 15 Jun 2025
+  * Author: Martin Hidayat Rihwan
+  * Github: https://github.com/Martin-020
+  ======================================================== -->
+</head>
+<body class="bg-light d-flex flex-column justify-content-center align-items-center vh-100">
+
+  <h1 class="mb-4">Tic Tac Toe</h1>
+
+  <div class="board d-grid gap-2">
+    <div class="row">
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+    </div>
+    <div class="row">
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+    </div>
+    <div class="row">
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+      <div class="col cell" data-cell></div>
+    </div>
+  </div>
+
+  <div class="mt-4 text-center">
+    <h4 id="status" class="mb-3 text-primary">Giliran: X</h4>
+    <button id="restartBtn" class="btn btn-secondary">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
